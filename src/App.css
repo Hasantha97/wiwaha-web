@@ -1,0 +1,13 @@
+.app {
+    background-color:#f1f2f5;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.app-body {
+    padding: 30px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}

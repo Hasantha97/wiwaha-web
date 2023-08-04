@@ -1,0 +1,56 @@
+.newUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcomWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.welcomWrapper > h2 {
+    margin: 10px 0;
+}
+
+.welcomWrapper > span {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+.newProfile {
+    width: 600px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+.formInputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+
+.fileSelectBtnsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.saveBtnWrapper {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-top: 5px;
+    height: 50px;
+}

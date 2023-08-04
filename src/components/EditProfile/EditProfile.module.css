@@ -1,0 +1,53 @@
+.editProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 730px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 30px;
+    row-gap: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.closeBtn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.editProfileTitleWrapper {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    column-gap: 5px;
+    margin-bottom: 8px;
+    color: #262627;
+}
+
+.formInputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.fileSelectBtnsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.saveBtnWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 50px;
+}
